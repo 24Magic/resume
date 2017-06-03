@@ -1,0 +1,33 @@
+{
+  "name": "mike-resume",
+  "version": "1.0.0",
+  "description": "A simple resume",
+  "main": "entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "less": "lessc ./src/css/index.less ./src/css/style.css",
+    "postcss": "postcss -u autoprefixer -r ./src/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/24Magic/resume.git"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "mike",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/24Magic/resume/issues"
+  },
+  "homepage": "https://github.com/24Magic/resume#readme",
+  "dependencies": {
+    "autoprefixer": "^7.1.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-minify-css": "^1.2.4",
+    "less": "^2.7.2",
+    "postcss": "^6.0.1"
+  }
+}
